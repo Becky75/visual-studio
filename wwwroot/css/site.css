@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/*style Brent Lee*/
+
+.blue-text {
+    color: purple;
+}
+#Artist {
+    background-color: #f1f1f1; /* Grey background */
+    padding: 50px 10px; /* Some padding */
+    color: black;
+    text-align: center; /* Centered text */
+    font-size: 50px; /* Big font size */
+    font-weight: bold;
+    position: center; /* center top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 3.0s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
